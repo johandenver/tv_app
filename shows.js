@@ -6,10 +6,10 @@ console.log(userInput)
 var search = `http://api.tvmaze.com/singlesearch/shows?q=${userInput}`
 */
 
-function shows(){
+function shows(userInput){
 
     var axios = require("axios");
-    var userInput = process.argv.slice(2).join(" ") || null;
+    // var userInput = process.argv.slice(2).join(" ") || null;
     var search = `http://api.tvmaze.com/singlesearch/shows?q=${userInput}`
 
     if (userInput === null){

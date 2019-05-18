@@ -22,4 +22,4 @@ Profile URL: ${actor.url}`;
     });
 };
 
-actors();
+module.exports = actors
