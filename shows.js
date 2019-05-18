@@ -42,4 +42,3 @@ function shows(){
 
 module.exports=shows;
 
-shows();
