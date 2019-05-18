@@ -1,0 +1,24 @@
+{
+  "name": "tv_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shows.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimgorc/tv_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimgorc/tv_app/issues"
+  },
+  "homepage": "https://github.com/kimgorc/tv_app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "inquirer": "^6.3.1"
+  }
+}
